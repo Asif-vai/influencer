@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="./images/main-camera.png" type="image/x-icon">
 
     <title>Influencer</title>
 </head>
 
-<body>
+<body >
     <header class="w-full md:w-[80%] mx-auto mb-6">
         <nav class="flex justify-between items-center p-4  mt-6 items-center">
             <div class="md:hidden text-2xl"><i class="fa-solid fa-bars"></i></div>
@@ -70,10 +72,11 @@
     <main class="mt-10">
         <!-- Collection -->
         <h1 class="text-center text-4xl font-semibold my-18">Popular Collection</h1>
-        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4 w-full md:w-[80%] mx-auto mt-6">
+        <section
+            class="grid grid-cols-1 w-[80%] mx-auto sm:grid-cols-2 md:grid-cols-3 gap-8 p-4 w-full md:w-[80%] mx-auto mt-6">
 
             <div class="flex flex-col  justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/tripod.png" alt="">
                 </div>
                 <div>
@@ -84,7 +87,7 @@
                 </div>
             </div>
             <div class="flex flex-col  justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/mic.png" alt="">
                 </div>
                 <div>
@@ -94,8 +97,8 @@
                         Buyers protection possible!</p>
                 </div>
             </div>
-           <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+            <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
+                <div class="flex justify-center items-center">
                     <img src="./images/airpod.png" alt="">
                 </div>
                 <div>
@@ -106,7 +109,7 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/drone.png" alt="">
                 </div>
                 <div>
@@ -117,7 +120,7 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/lights.png" alt="">
                 </div>
                 <div>
@@ -128,7 +131,7 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/setup.png" alt="">
                 </div>
                 <div>
@@ -139,7 +142,7 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/camera.png" alt="">
                 </div>
                 <div>
@@ -150,7 +153,7 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/single-light.png" alt="">
                 </div>
                 <div>
@@ -161,19 +164,46 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center space-y-4 shadow-lg rounded-lg p-4">
-                <div>
+                <div class="flex justify-center items-center">
                     <img src="./images/action.png" alt="">
                 </div>
                 <div>
                     <h2 class="text-2xl font-semibold">Action Camera</h2>
-                    <p class="font-semibold mt-2 text-xl">$380.00</p> 
+                    <p class="font-semibold mt-2 text-xl">$380.00</p>
                     <p class="text-sm text-gray-700 mt-4">Wordwide shifting available <br>
                         Buyers protection possible!</p>
                 </div>
             </div>
         </section>
+        <!-- Feature section -->
+        <section
+            class="flex flex-col justify-between items-center md:flex-row-reverse md:justify-between md:w-[80%] mx-auto gap-x-20 p-4">
+            <div class="flex flex-col items-center justify-between space-y-10 md:items-start md:space-y-4 ">
+                <h1 class="text-4xl font-semibold mt-6 ">Featured products at one
+                    place</h1>
+                <p class="text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="bg-[#E02C6D] px-6 py-2 text-white font-semibold rounded-lg">Join Now <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="flex justify-center items-center mt-8">
+                <img src="./images/gear.png" alt="">
+            </div>
+        </section>
     </main>
-
+    <footer class="w-full h-[60%] bg-[#0A0826] text-white mt-6">
+        <div class="flex flex-col justify-center items-center p-4 space-y-4">
+            <h1 class="text-2xl font-semibold md:text-4xl">Influencer products</h1>
+            <p class="text-lg ">Copyright © 2020 influencer products</p>
+            <p class="text-lg">All rights reserved</p>
+        </div>
+        <div class="flex items-center justify-between w-[60%] mx-auto h-[80px] text-2xl md:justify-around md:text-4xl">
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-solid fa-earth-asia"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
 
 </body>
 
